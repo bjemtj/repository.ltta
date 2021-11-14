@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ltta" name="LTTA REPO" version="1.1" provider-name="ltta">
+    <extension point="xbmc.addon.repository" name="LTTA REPO">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/bjemtj/repository.ltta/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bjemtj/repository.ltta/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bjemtj/repository.ltta/master/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>LTTA REPO</summary>
+        <description>LTTA Reposity</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>ltta.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
